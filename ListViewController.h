@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CoffeePlace.h"
 
 @interface ListViewController : UIViewController
+
+@property CoffeePlace *coffeePlace;
 
 @end
